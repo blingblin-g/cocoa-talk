@@ -1,0 +1,24 @@
+.stat {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.stat__col {
+  width: 33%;
+}
+
+.stat__col:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.stat__col:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.stat__col .fa-battery-full {
+  margin: 0 5px;
+}

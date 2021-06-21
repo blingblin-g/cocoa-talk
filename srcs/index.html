@@ -5,32 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="stat-bar">
-      <div class="stat-bar__column">
+    <div class="nav">
+      <div class="nav__col">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
-      <div class="stat-bar__column">
-        <span>18:43</span>
+      <div class="nav__col">
+        <span>18:42</span>
       </div>
-      <div class="stat-bar__column">
-        <span>110%</span>
+      <div class="nav__col">
+        <span>99%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Cocoa Clone</h1>
-      <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
+    <header class="welcome">
+      <h1 class="welcome__title">Welcome to Cocoa Clone</h1>
+      <p class="welcome__text">
+        If you have a Cocoa Account, <br />log in with your email or phone
+        number.
       </p>
     </header>
-
-    <form action="friends.html" method="get" id="login-form">
+    <form action="friends.html" method="get" id="login">
       <input
         name="username"
         type="text"
@@ -39,9 +38,8 @@
       />
       <input name="password" type="password" placeholder="Password" required />
       <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <a href="#">Find Cocoa Account or Password</a>
     </form>
-
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
