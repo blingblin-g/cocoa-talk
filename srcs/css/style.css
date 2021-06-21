@@ -2,13 +2,22 @@
 @import "reset.css";
 @import "variables.css";
 @import "./components/stat.css";
-@import "./screen/login.css";
 @import "./components/nav.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chat.css";
+@import "./components/icon-row.css";
+@import "./components/badge.css";
+@import "./components/alt-screen-header.css";
+@import "./components/no-mobile.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   margin-top: 25px;
-  height: 1000vh;
+  padding: 5px;
 }
